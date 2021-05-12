@@ -53,11 +53,13 @@ public class Triangle extends Shape {
     @Override
     public String toString() {
         return "Triangle{" +
-                "size1=" + size1 +
+                " color = " + getColor() +
+                ", filled = " + isFilled() +
+                ", size1=" + size1 +
                 ", size2=" + size2 +
                 ", size3=" + size3 +
-                " peri = " + getPeri() +
-                " area = " + getArea() +
+                ", peri = " + getPeri() +
+                ", area = " + getArea() +
                 '}';
     }
 }
